@@ -34,7 +34,6 @@ console.log(myObject.firstName) //risultato sarà "Luca"
 console.log(myObject[myName]) // risultato sarà "Luca"
 
 
-## Differenza : 
+Nelle bracket notations ho la possibilità di utilizzare variabili, nelle dot notation no.
 
-- La differenza sta nel fatto che usando le bracket notations, ho la possibilità di utilizzare variabili (e quindi prompt) per poter accedere ad un valore dell'oggetto, con le dot notations
-questa cosa restituisce un errore.
+- con Object.keys(yourObject).length verifico quanti elementi contiene l'oggetto. E' l'equivalente di array.length ma per gli oggetti.
